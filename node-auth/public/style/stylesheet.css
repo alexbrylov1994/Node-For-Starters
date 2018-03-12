@@ -1,0 +1,27 @@
+.jumbotron-img {
+  background: rgba(210, 210, 220, 0.4);
+}
+
+.space
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer
+{
+  padding-top: 40px;
+}
+
+.transparent
+{
+  background-color: rgba(250, 250, 250, 0.8);
+}
+
+body {
+    background: url("../Assets/back3.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
