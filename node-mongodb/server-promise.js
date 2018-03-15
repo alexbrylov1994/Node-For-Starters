@@ -4,14 +4,6 @@ const dboper = require('./operations');
 
 const url = 'mongodb://localhost:27017/conFusion';
 
-MongoClient.connect(url, (err, db) => {
-
-    assert.equal(err,null);
-
-    console.log('Connected correctly to server');
-
-    const collection = db.collection("dishes");
-    
     MongoClient.connect(url).then((db) => {
 
         console.log('Connected correctly to server');
@@ -50,4 +42,3 @@ MongoClient.connect(url, (err, db) => {
     })
     .catch((err) => console.log(err));
 
-});
